@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: hsl(229, 57%, 11%);
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  height: 100%;
+}
+
+.cards {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  justify-content: center;
+}
+
+.image {
+  position: absolute;
+  background-image: url("./images/bg-desktop.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50%;
+  background-size: cover;
+  bottom: 0;
+}
+
+.card1 {
+  border-radius: 10px;
+  border-top-right-radius: 80px;
+  width: 400px;
+  margin-right: 30px;
+  padding: 40px;
+  background-color: hsl(228, 56%, 26%);
+}
+
+.card1_top {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.card1_bottom {
+  display: flex;
+}
+
+.upload_icon,
+.folder_icon,
+.doc_icon {
+  margin-left: 15px;
+  border-radius: 10px;
+  padding: 10px 13px;
+  background-color: hsl(229, 57%, 11%);
+}
+
+.doc_icon {
+  margin-left: 0;
+}
+
+.folder_img {
+  margin-top: 3px;
+}
+
+.upload_img {
+  margin-top: 5px;
+}
+
+.card2 {
+  border-radius: 10px;
+  margin-top: 40px;
+  width: 650px;
+  padding: 40px;
+  background-color: hsl(228, 56%, 26%);
+}
+
+.para {
+  color: hsl(243, 100%, 93%);
+  margin-bottom: 20px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.range {
+  display: flex;
+  width: 100%;
+  height: 25px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  align-items: center;
+  background-color: hsl(229, 57%, 11%);
+}
+
+.space1 {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 65%;
+  border-radius: 10px;
+  margin-top: 3px;
+  margin-bottom: 2px;
+  align-items: flex-end;
+  justify-content: center;
+  margin-left: 0.5%;
+  background-image: linear-gradient(
+    to right,
+    hsl(6, 100%, 80%),
+    hsl(335, 100%, 65%)
+  );
+}
+
+.circle {
+  width: 12px;
+  height: 12px;
+  margin-right: 3px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.gb {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.pop_up {
+  display: flex;
+  padding: 15px 30px;
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 170px;
+  background-color: hsl(247, 100%, 100%);
+  position: absolute;
+  margin-left: 54%;
+}
+
+.para185 {
+  margin-top: 7px;
+  margin-left: 5px;
+  color: hsl(229, 7%, 55%);
+}
